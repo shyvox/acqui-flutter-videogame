@@ -1,0 +1,39 @@
+name: goldrush
+description: Flutter game maded with flame library
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flame: 1.0.0
+  flame_tiled: ^1.0.0
+  flame_audio: ^1.0.0
+  a_star_algorithm: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/george.png
+    - assets/images/zombie_n_skeleton.png
+    - assets/images/tiles.png
+    - assets/images/coins.png
+    - assets/tiles/tiles.tmx
+    - assets/tiles/tiles.tsx
+    - assets/audio/music/music.mp3
+    - assets/audio/sounds/enemy_dies.wav
+    - assets/audio/sounds/running.wav
+    - assets/audio/sounds/coin.wav
